@@ -88,12 +88,10 @@ def main():
         
 main()
 
-# QPE 회로 그리기
 a = 7
 phase, qc = qpe_amod15(a)
 qc.draw()
 
-# Modular Power 회로 그리기
 a = 2
 power = 4
 U = QuantumCircuit(4)
